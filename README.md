@@ -59,27 +59,6 @@ int binarySearch(int arr[], int l, int r, int x) {
 }
 ```
 
-## 📊 Repository Statistics
-
-- **Total Files**: 35
-- **Lines of Code**: 2,500+
-- **Algorithms**: 15
-- **Data Structures**: 8
-- **Last Updated**: 2024-08-04
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 

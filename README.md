@@ -1,47 +1,11 @@
-Certainly. Here's a full README template for your GitHub repository containing C++ codes, without the projects section:
+
 
 ```markdown
 # 🚀 C++ Code Repository
 
 Welcome to my collection of C++ code snippets and algorithms!
 
-## 📚 Table of Contents
-- [📁 Repository Structure](#-repository-structure)
-- [🛠️ Getting Started](#️-getting-started)
-- [💻 Code Examples](#-code-examples)
-- [📊 Repository Statistics](#-repository-statistics)
-- [🤝 Contributing](#-contributing)
-- [📝 License](#-license)
 
-## 📁 Repository Structure
-
-```
-.
-├── 📂 Algorithms
-│   ├── 🔢 Sorting
-│   │   ├── bubble_sort.cpp
-│   │   ├── quick_sort.cpp
-│   │   └── merge_sort.cpp
-│   ├── 🔍 Searching
-│   │   ├── binary_search.cpp
-│   │   └── linear_search.cpp
-│   └── 🧮 Math
-│       ├── fibonacci.cpp
-│       └── prime_numbers.cpp
-├── 📂 Data Structures
-│   ├── 📊 Arrays
-│   │   └── dynamic_array.cpp
-│   ├── 🔗 Linked Lists
-│   │   ├── singly_linked_list.cpp
-│   │   └── doubly_linked_list.cpp
-│   └── 🌳 Trees
-│       ├── binary_tree.cpp
-│       └── avl_tree.cpp
-├── 📂 Utilities
-│   ├── string_utils.cpp
-│   └── file_handling.cpp
-└── 📄 README.md
-```
 
 ## 🛠️ Getting Started
 

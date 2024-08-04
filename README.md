@@ -16,12 +16,9 @@ Welcome to my collection of C++ code snippets and algorithms!
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/cpp-code-repository.git
+   git clone [https://github.com/yourusername/cpp-code-repository.git](https://github.com/Shadowsweep/DSA_Codes_practice.git)
    ```
-2. Navigate to the project directory:
-   ```
-   cd cpp-code-repository
-   ```
+
 
 ### Compiling and Running
 

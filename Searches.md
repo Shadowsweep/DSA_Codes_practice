@@ -7,6 +7,7 @@
 3. [Jump Search](#jump-search)
 4. [Interpolation Search](#interpolation-search)
 5. [Exponential Search](#exponential-search)
+6. [Main Function](#main-function)
 
 ---
 
@@ -129,14 +130,101 @@ Time Complexity: O(log n)
 
 ---
 
-Remember to include necessary headers and the `using namespace std;` directive when using these functions in your C++ programs.
+
+
+## Main Function
+
+Here's a `main()` function that demonstrates how to use all the searching algorithms:
 
 ```cpp
 #include <iostream>
 #include <cmath>
+#include <algorithm>
+using namespace std;
+
+// [Include all the search function definitions here]
+
+int main() {
+    int arr[] = {2, 3, 4, 10, 40, 50, 60, 70, 80, 90};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int x = 10; // Element to search
+
+    cout << "Array: ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    cout << "Element to search: " << x << endl;
+
+    // Linear Search
+    int result = linearSearch(arr, n, x);
+    (result == -1)
+        ? cout << "Linear Search: Element not present in array"
+        : cout << "Linear Search: Element found at index " << result;
+    cout << endl;
+
+    // Binary Search
+    sort(arr, arr + n); // Binary search requires sorted array
+    result = binarySearch(arr, 0, n - 1, x);
+    (result == -1)
+        ? cout << "Binary Search: Element not present in array"
+        : cout << "Binary Search: Element found at index " << result;
+    cout << endl;
+
+    // Jump Search
+    result = jumpSearch(arr, n, x);
+    (result == -1)
+        ? cout << "Jump Search: Element not present in array"
+        : cout << "Jump Search: Element found at index " << result;
+    cout << endl;
+
+    // Interpolation Search
+    result = interpolationSearch(arr, n, x);
+    (result == -1)
+        ? cout << "Interpolation Search: Element not present in array"
+        : cout << "Interpolation Search: Element found at index " << result;
+    cout << endl;
+
+    // Exponential Search
+    result = exponentialSearch(arr, n, x);
+    (result == -1)
+        ? cout << "Exponential Search: Element not present in array"
+        : cout << "Exponential Search: Element found at index " << result;
+    cout << endl;
+
+    return 0;
+}
+```
+
+To use this `main()` function:
+
+1. Copy all the search function definitions (Linear, Binary, Jump, Interpolation, and Exponential Search) from the sections above.
+2. Paste them above the `main()` function in your C++ file.
+3. Copy and paste the `main()` function.
+4. Compile and run the program.
+
+This will demonstrate all the searching algorithms on a sample array, searching for the element 10.
+
+Remember to include the necessary headers at the top of your file:
+
+```cpp
+#include <iostream>
+#include <cmath>
+#include <algorithm>
 using namespace std;
 ```
 
 Happy coding and searching! 🚀
 ```
+
+This addition to the README provides:
+
+1. A complete `main()` function that demonstrates the usage of all five searching algorithms.
+2. Instructions on how to use the `main()` function with the previously provided search algorithms.
+3. A reminder about necessary headers.
+
+With this `main()` function, you can easily test and compare all the searching algorithms in one go. You can also modify the `arr` and `x` values to test different scenarios.
+
+
 

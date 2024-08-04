@@ -1,6 +1,4 @@
 
-
-```markdown
 # 🚀 C++ Code Repository
 
 Welcome to my collection of C++ code snippets and algorithms!
@@ -87,25 +85,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <div align="center">
 
-📧 Contact: your.email@example.com | 🌐 Website: [yourwebsite.com](https://yourwebsite.com)
+📧 Contact: utkarshhg911@gmail.com | 
 
 ⭐ Don't forget to star this repo if you find it helpful! ⭐
 
 </div>
 ```
 
-This README template includes:
-
-1. A title with an emoji
-2. Table of contents with icons
-3. Detailed repository structure using a tree diagram with folder and file icons
-4. Getting started section with prerequisites, installation, and running instructions
-5. Code examples section showcasing some algorithms
-6. Repository statistics
-7. Contributing guidelines
-8. License information
-9. Contact information in a centered div at the bottom
-
-You can customize this template by adding your specific details, updating the repository structure, and including any additional sections that might be relevant to your C++ code collection.
-
-Would you like me to explain or break down any part of this README template?

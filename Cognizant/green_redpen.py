@@ -7,7 +7,7 @@ def switch_pens(A, n):
 
 
 n = 6
-A = [1, 2, 1, 6, 10, 9]
+A = [70, 23, 13, 26, 72, 19]
 count_pens = switch_pens(A, n)
 print(count_pens)
 

@@ -12,6 +12,11 @@ def binary_search(arr, target):
             high = mid - 1
     return -1
 
+
+
+
+
+
 # Example
 arr = [1, 3, 5, 7, 9, 11]
 target = 7

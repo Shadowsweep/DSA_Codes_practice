@@ -11,3 +11,4 @@ def is_armstrong_number(num):
 print(is_armstrong_number(153))  # True
 print(is_armstrong_number(9474))  # True
 print(is_armstrong_number(123))  # False
+

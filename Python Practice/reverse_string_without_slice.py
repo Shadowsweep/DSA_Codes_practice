@@ -5,3 +5,9 @@ def reverse_string_manual(s):
     return reversed_str
 
 print(reverse_string_manual("hello"))  # "olleh"
+
+# def reverse_string_manual(s):
+#     reversed = ""
+#     for char in s:
+#         reversed = char + reversed
+#     return reversed

@@ -25,7 +25,7 @@ def secondSmallest(arr):
         elif num < second_smallest and num != smallest:
             second_smallest = num
     return second_smallest if second_smallest != float('inf') else -1
-
+ 
 
 arr = [1, 2, 4, 7, 6, 5, 8]
 # arr = [1, 2, 3, 4, 5, 6, 7, 8]
